@@ -7,7 +7,7 @@
     "url": "https://developers.openai.com/api/docs/guides/latest-model",
     "role": "external implementation evidence; not project authority"
   },
-  "scope": "Tracked files and repository instructions in the 2026-09-05 checkout; no production deployment or paid provider call",
+  "scope": "Tracked files and repository instructions in the 2026-09-05 checkout; direct OpenAI runtime signature scan; no production deployment or paid provider call",
   "domains": {
     "instruction_authority": {
       "result": "PASS"
@@ -25,7 +25,7 @@
       "result": "PASS"
     },
     "responses_tool_workflow": {
-      "result": "UNVERIFIED"
+      "result": "N/A"
     },
     "reporting_fidelity": {
       "result": "PASS"
@@ -35,7 +35,7 @@
     "AGENTS.md operating profile added or aligned"
   ],
   "remaining_gaps": [
-    "No live OpenAI API workflow was exercised; API/model compatibility remains UNVERIFIED unless the repository has no such runtime."
+    "No direct OpenAI API runtime exists in the audited tracked source; a future implementation requires a fresh compatibility audit."
   ],
   "sequence_preserved": "Audit -> Prototype/Spike -> Contract -> Production where applicable",
   "provenance": [
